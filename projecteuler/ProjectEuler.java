@@ -5,11 +5,12 @@ import java.util.List;
 import problem.Problem;
 import problem.Problem32;
 import problem.Problem35;
+import problem.Problem38;
 
 public class ProjectEuler
 {
 	private static final List<Problem> SOLVED_PROBLEMS = Arrays.asList(new Problem35(), new Problem32());
-	private static final Problem currentProblem = new Problem32();
+	private static final Problem currentProblem = new Problem38();
 
 	public static void main(final String[] args)
 	{
